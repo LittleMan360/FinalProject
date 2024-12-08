@@ -16,7 +16,7 @@ public class Hobby
     public string RequiredEquipment { get; set; }
 }
 
-public class FavoriteBreakfast
+public class FavoriteFood
 {
     public int Id { get; set; }
     public string Name { get; set; }
@@ -25,7 +25,7 @@ public class FavoriteBreakfast
     public bool IsVegetarian { get; set; }
 }
 
-public class Book
+public class FavoriteBook
 {
     public int Id { get; set; }
     public string Title { get; set; }

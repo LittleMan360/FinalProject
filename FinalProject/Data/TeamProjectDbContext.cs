@@ -2,13 +2,13 @@
 {
     using Microsoft.EntityFrameworkCore;
 
-    public class TeamProjectDbContext : DbContext
+    public class FinalProjectContext : DbContext
     {
-        public TeamProjectDbContext(DbContextOptions<TeamProjectDbContext> options) : base(options) { }
+        public FinalProjectContext(DbContextOptions<FinalProjectContext> options) : base(options) { }
 
         public DbSet<TeamMember> TeamMembers { get; set; }
         public DbSet<Hobby> Hobbies { get; set; }
-        public DbSet<FavoriteBreakfast> FavoriteBreakfasts { get; set; }
-        public DbSet<Book> Books { get; set; }
+        public DbSet<FavoriteFood> FavoriteFoods { get; set; }
+        public DbSet<FavoriteBook> FavoriteBooks { get; set; }
     }
 }
